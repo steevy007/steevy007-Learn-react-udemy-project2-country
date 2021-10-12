@@ -7,7 +7,7 @@ import Error from './components/Error/Error';
 import './App.css'
 function App() {
   return (
-    <BrowserRouter basename="/reactapp/country">
+    <BrowserRouter basename="/country">
       <Navbar />
       <Switch>
         <Route path="/" exact render={() => <h1>Vous etes a la page home</h1>} />
